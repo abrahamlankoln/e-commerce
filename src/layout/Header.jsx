@@ -10,8 +10,9 @@ export default function Header() {
         <a href="/contact" className="hover:text-blue-500">Contact</a>
       </nav>
       <div className="md:hidden">
-        <LucideMenu size={24} />
+        <LucideMenu size={24} />  
       </div>
     </header>
   );
+   
 }

@@ -10,7 +10,13 @@ import HomePage from "./pages/HomePage.jsx";
 
 function App() {
  
-  return <HomePage/>
+ return (
+    <>
+     
+      <HomePage />
+      <Footer />    
+    </>
+  );
 }
 
 export default App
