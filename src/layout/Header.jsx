@@ -1,17 +1,22 @@
-import { LucideMenu } from "lucide-react"; // Lucide icons
+import { LucideMenu, LucideSearch, LucideUser, ShoppingCart } from "lucide-react"; // Lucide icons
 
 export default function Header() {
   return (
     <header className="flex items-center justify-between p-4 bg-white shadow-md">
-      <div className="text-xl font-bold">E-Shop</div>
-      <nav className="hidden md:flex space-x-4">
-        <a href="/" className="hover:text-blue-500">Home</a>
-        <a href="/shop" className="hover:text-blue-500">Shop</a>
-        <a href="/contact" className="hover:text-blue-500">Contact</a>
-      </nav>
-      <div className="md:hidden">
-        <LucideMenu size={24} />  
-      </div>
+        <div className="">
+          Bandage
+        </div>
+        <div>
+          <LucideUser size={24}/>
+          <LucideSearch size={24}/>
+          <ShoppingCart size={24}/>
+          <LucideMenu size={24}/>
+        </div>
+        <div><span>Home</span>
+        <span>Product</span>
+        <span>Pricing</span>
+        <span>Contact</span>
+        </div>
     </header>
   );
    
